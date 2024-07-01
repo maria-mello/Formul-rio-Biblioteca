@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Biblioteca</title>
+</head>
+<body>
+
+<h1> Pesquisa da Biblioteca </h1>
+
+    <h2> 
+        Bom dia! Nós da administração, decidimos por fazer uma pesquisa com nossos
+        usuários mais frequentes aqui no estabelecimento da biblioteca, se trata apenas de uma pesquisa 
+        destinada a conhecer melhor o gosto de quem vem alugar seus livros por aqui, e ficaríamos gratos se
+        respondessem com a maior sinceridade possível! 
+    </h2> 
+        
+
+    <label for='Nome'> Nome Completo: </label> <br>
+    <input type='text'id='Nome' name='Nome'> <br> <br>
+
+    <label for='Email'> Seu Email: </label> <br>
+    <input type='Email' id='Email' name='Email'> <br> <br>
+
+    <label for='Idade'> Selecione sua Idade: </label> <br>
+    <input type='number'id='Idade' name='Idade' value='Idade'> <br> <br>
+
+
+    <p> Selecione seu gênero: </p>
+
+    <section class="GeneroPessoa">
+
+        <input type='radio' id='Genero' name='Genero' value='Feminino'>
+        <label for='Feminino'> Feminino </label>
+        
+
+        <input type='radio' id='Genero' name='Genero' value='Masculino'>
+        <label for='Masculino'> Masculino </label>
+        
+
+        <input type='radio' id='Genero' name='Genero' value='Prefiro não informar'>
+        <label for='Prefiro não informar'> Prefiro não informar </label>
+        
+    </section>
+
+    <p> Abaixo selecione os gêneros literários que mais lhe agradam! </p> 
+    <br>
+
+    <section class="GeneroLiterario">
+        
+        <div class='checkboxGrupo'> 
+
+            <div class="checkbox">
+                <input type='checkbox' id='Ficção' name='Ficção' value='Ficção'>
+                <label for='Ficção'> Ficção </label>
+            </div>
+
+            <div class="checkbox">
+                <input type='checkbox' id='Romance' name='Romance' value='Romance'>
+                <label for='Romance'> Romance </label>
+            </div>
+
+            <div class="checkbox">
+                <input type='checkbox' id='Fantasia' name='Fantasia' value='Fantasia'>
+                <label for='Fantasia'> Fantasia </label>
+            </div>
+
+            <div class="checkbox">
+                <input type='checkbox' id='Poesia' name='Poesia' value='Poesia'>
+                <label for='Poesia'> Poesia </label>
+            </div>
+
+        </div>
+                
+
+        <div class='checkboxGrupo'>
+
+            <div class="checkbox"> 
+                <input type='checkbox' id='Distopia' name='Distopia' value='Distopia'>
+                <label for='Distopia'> Distopia </label>
+            </div>
+
+            <div class="checkbox">
+                <input type='checkbox' id='Misterio' name='Misterio' value='Misterio'>
+                <label for='Misterio'> Mistério </label>
+            </div> 
+
+            <div class="checkbox">
+                <input type='checkbox' id='Suspense  ' name='Suspense  ' value='Suspense  '>
+                <label for='Suspense  '> Suspense   </label>
+    
+            </div>
+
+            <div class="checkbox">
+                <input type='checkbox' id='AutoBiografia' name='AutoBiografia' value='AutoBiografia'>
+                <label for='AutoBiografia'> AutoBiografia </label>  
+            </div>
+
+        </div>
+        
+    </section>
+
+    <br>
+
+
+
+    <h3> Caso você seja novo na biblioteca, saiba que você é sempre bem vindo a por algum livro novo em nossa Árvore dos Livros!</h3>
+    <br>
+
+
+
+<center> 
+        <img src="ArvoreL.jfif" alt='árvore de livros' height='200px' width='200'>
+             <br><br>
+        <p> Muito obrigada por responder! </p>
+</center>
+
+
+    <footer> 
+        <p>&copy; 2024 Biblioteca</p>
+    </footer>
+
+</body>
+</html>
